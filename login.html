@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="login.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
@@ -17,6 +18,10 @@
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
             </div>
+            <div class = "checkbox">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember me</label>   
+            </div>
             <button type="submit">Login</button>
             <div class="input-group">
                 <p>Don't have an account? <a href="register.html">Register here</a></p>
@@ -24,10 +29,7 @@
             <div class="input-group">
                 <p><a href="forgot_password.html">Forgot Password?</a></p>
             </div>
-            <div class = "checkbox">
-                <input type="checkbox" id="remember" name="remember">
-                <label for="remember">Remember me</label>   
-            </div>
+           
         </form>
 </body>
 </html>
